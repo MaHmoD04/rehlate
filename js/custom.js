@@ -14,11 +14,7 @@ barsBtn.addEventListener("click", function () {
 const swiper = new Swiper(".swiper", {
   // Optional parameters
   loop: true,
-  // Navigation arrows
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
+  grabCursor: 'true',
   // Default parameters
   slidesPerView: 1,
   spaceBetween: 10,
