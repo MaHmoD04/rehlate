@@ -688,7 +688,7 @@ header .mouse svg {
   padding: 60px 0;
 }
 .says .swiper {
-  overflow: visible !important;
+  overflow-y: visible !important;
 }
 .says .swiper-slide {
   height: auto !important;
