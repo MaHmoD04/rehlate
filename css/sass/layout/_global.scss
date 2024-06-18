@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+a,
+img,
+span {
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+}
+img {
+  object-fit: cover !important;
+  width: 100%;
+}
+ul,li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
